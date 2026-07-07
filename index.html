@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>himadri joy bepari portfolio</title>
 		<meta charset="utf-8" />
@@ -27,12 +27,12 @@
 					<div id="intro">
 						<h1>HIMADRI JOY BEPARI<br />
 						Portfolio</h1>
-						<p>An Electrical and Electronics Engineer skilled in Business Intelligence Tools <br /> 
-							MBA Candidate | Technical Analysis | Facility Automation <br /> 
-							<a href="https://docs.google.com/document/d/1SnctO_vtCNkJ4ajtXKp4DETkbW0xUJk-hB3_7qw1e3s/edit?usp=sharing">See my Resume</a><br />
+						<p><span data-i18n="hero_tagline1">An Electrical and Electronics Engineer skilled in Business Intelligence Tools</span> <br />
+							<span data-i18n="hero_tagline2">MBA Candidate | Technical Analysis | Facility Automation</span> <br />
+							<a href="https://docs.google.com/document/d/1SnctO_vtCNkJ4ajtXKp4DETkbW0xUJk-hB3_7qw1e3s/edit?usp=sharing" data-i18n="hero_resume">See my Resume</a><br />
 						</p>
 						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly" data-i18n="hero_continue">Continue</a></li>
 						</ul>
 					</div>
 
@@ -44,10 +44,14 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Featured Projects</a></li>
-							<li><a href="generic.html">Certifications</a></li>
-							<li><a href="electrical.html">Electrical Thesis/Projects</a></li>
-							<li><a href="mba.html">MBA Presentation/Projects</a></li>
+							<li class="active"><a href="index.html" data-i18n="nav_projects">Featured Projects</a></li>
+							<li><a href="generic.html" data-i18n="nav_certs">Certifications</a></li>
+							<li><a href="electrical.html" data-i18n="nav_electrical">Electrical Thesis/Projects</a></li>
+							<li><a href="mba.html" data-i18n="nav_mba">MBA Presentation/Projects</a></li>
+						</ul>
+						<ul class="lang-toggle">
+							<li><a href="#" data-lang-btn="en" onclick="setLang('en');return false;">EN</a></li>
+							<li><a href="#" data-lang-btn="de" onclick="setLang('de');return false;">DE</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/himadri-joy/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
@@ -61,16 +65,13 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="https://github.com/HimJoy/PowerBI/blob/main/AdventureWorks%20PBIX%20Files/AdventureWorks%20Report_FINAL.pbix">Product Performance <br />
-									Power BI Report</a></h2>
-									<p>This Power BI report provides a clear snapshot of AdventureWorks business performance by bringing revenue, profit, orders, and return rate into one view. It helps decision-makers quickly track monthly trends, compare category-level order volumes, and identify top-performing as well as high-return products. 
-										The dashboard highlights key monthly KPIs and product-type insights, making it easier to spot performance changes at a glance. With its clean visual structure and interactive elements, it supports fast, data-driven business decisions. 
-										For going deeper into Branch Evaluation, Product Details, Customer Details and futher, one just needs to go to other pages of this report
-									.</p>
+									<h2><a href="https://github.com/HimJoy/PowerBI/blob/main/AdventureWorks%20PBIX%20Files/AdventureWorks%20Report_FINAL.pbix"><span data-i18n="p0_title1">Product Performance</span> <br />
+									<span data-i18n="p0_title2">Power BI Report</span></a></h2>
+									<p data-i18n="p0_desc">This Power BI report provides a clear snapshot of AdventureWorks business performance by bringing revenue, profit, orders, and return rate into one view. It helps decision-makers quickly track monthly trends, compare category-level order volumes, and identify top-performing as well as high-return products. The dashboard highlights key monthly KPIs and product-type insights, making it easier to spot performance changes at a glance. With its clean visual structure and interactive elements, it supports fast, data-driven business decisions. For going deeper into Branch Evaluation, Product Details, Customer Details and futher, one just needs to go to other pages of this report.</p>
 								</header>
 								<a href="https://github.com/HimJoy/PowerBI/blob/main/AdventureWorks%20PBIX%20Files/AdventureWorks%20Report_FINAL.pbix" class="image main"><img src="images/cycle.png" alt="Screenshot of AdventureWorks Power BI report showing product performance dashboard" /></a>
 								<ul class="actions special">
-									<li><a href="https://github.com/HimJoy/PowerBI/blob/main/AdventureWorks%20PBIX%20Files/AdventureWorks%20Report_FINAL.pbix" class="button large">View Project</a></li>
+									<li><a href="https://github.com/HimJoy/PowerBI/blob/main/AdventureWorks%20PBIX%20Files/AdventureWorks%20Report_FINAL.pbix" class="button large" data-i18n="btn_view">View Project</a></li>
 								</ul>
 							</article>
 
@@ -78,36 +79,36 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a href="https://github.com/HimJoy/PowerBI/tree/main/InspectionServices">Inspection Volume Analysis Dashboard<br />
+										<h2><a href="https://github.com/HimJoy/PowerBI/tree/main/InspectionServices"><span data-i18n="p1_title">Inspection Volume Analysis Dashboard</span><br />
 										</a></h2>
 									</header>
 									<a href="https://github.com/HimJoy/PowerBI/tree/main/InspectionServices" class="image fit"><img src="images/maven.png" alt="Screenshot of restaurant inspection volume Power BI dashboard" /></a>
-									<p>This Power BI dashboard gives an executive overview of restaurant inspection performance, combining inspection volume, sanitation grades, and violation trends in one interactive report. It enables users to monitor current-month inspections against targets, analyze violations by region and type, and identify geographic patterns through zip code mapping.</p>
+									<p data-i18n="p1_desc">This Power BI dashboard gives an executive overview of restaurant inspection performance, combining inspection volume, sanitation grades, and violation trends in one interactive report. It enables users to monitor current-month inspections against targets, analyze violations by region and type, and identify geographic patterns through zip code mapping.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/HimJoy/PowerBI/tree/main/InspectionServices" class="button">View Project</a></li>
+										<li><a href="https://github.com/HimJoy/PowerBI/tree/main/InspectionServices" class="button" data-i18n="btn_view">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<h2><a href="https://github.com/TUHHStartupEngineers-Classroom/ss23-bdsb-HimJoy">Business Data Science Project<br />
+										<h2><a href="https://github.com/TUHHStartupEngineers-Classroom/ss23-bdsb-HimJoy"><span data-i18n="p2_title">Business Data Science Project</span><br />
 										</a></h2>
 									</header>
 									<a href="https://github.com/TUHHStartupEngineers-Classroom/ss23-bdsb-HimJoy" class="image fit"><img src="images/Rprogramming.jpg" alt="Screenshot of business data science project analysis in R" /></a>
-									<p>This project showcases my work in data acquisition, data wrangling, visualization, and business-oriented analysis through a structured and interactive web format. Across the project, I applied tools such as Tidyverse, ggplot2, web scraping, and API-based data collection to solve practical analytics challenges. This project is based on multiple real-world datasets, including bike sales data, weather data from the OpenWeather API, bike product data scraped from the Radon Bikes website, patent datasets, and COVID-19 case data.</p>
+									<p data-i18n="p2_desc">This project showcases my work in data acquisition, data wrangling, visualization, and business-oriented analysis through a structured and interactive web format. Across the project, I applied tools such as Tidyverse, ggplot2, web scraping, and API-based data collection to solve practical analytics challenges. This project is based on multiple real-world datasets, including bike sales data, weather data from the OpenWeather API, bike product data scraped from the Radon Bikes website, patent datasets, and COVID-19 case data.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/TUHHStartupEngineers-Classroom/ss23-bdsb-HimJoy" class="button">View Project</a></li>
+										<li><a href="https://github.com/TUHHStartupEngineers-Classroom/ss23-bdsb-HimJoy" class="button" data-i18n="btn_view">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										
-										<h2><a href="https://github.com/HimJoy/RFID_new/tree/main">RFID Project<br />
+										<h2><a href="https://github.com/HimJoy/RFID_new/tree/main"><span data-i18n="p3_title">RFID Project</span><br />
 										</a></h2>
 									</header>
 									<a href="https://github.com/HimJoy/RFID_new/tree/main" class="image fit"><img src="images/rfid.jpg" alt="Tableau dashboard for RFID-based warehouse and inventory management" /></a>
-									<p>This project explored how RFID can improve warehouse and inventory management through real-time tracking, fewer manual errors, and better process visibility. I supported the work by creating a Tableau dashboard to analyze missing articles and highlight inventory-related losses. The study also included cost, risk, and ROI analysis, showing that RFID implementation could deliver clear operational and financial benefits.</p>
+									<p data-i18n="rfid_desc">This project explored how RFID can improve warehouse and inventory management through real-time tracking, fewer manual errors, and better process visibility. I supported the work by creating a Tableau dashboard to analyze missing articles and highlight inventory-related losses. The study also included cost, risk, and ROI analysis, showing that RFID implementation could deliver clear operational and financial benefits.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/HimJoy/RFID_new/tree/main" class="button">Full Story</a></li>
+										<li><a href="https://github.com/HimJoy/RFID_new/tree/main" class="button" data-i18n="btn_full">Full Story</a></li>
 									</ul>
 								</article>
 
@@ -121,35 +122,35 @@
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
-										<label for="name">Name</label>
+										<label for="name" data-i18n="form_name">Name</label>
 										<input type="text" name="name" id="name" />
 									</div>
 									<div class="field">
-										<label for="email">Email</label>
+										<label for="email" data-i18n="form_email">Email</label>
 										<input type="text" name="email" id="email" />
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
+										<label for="message" data-i18n="form_message">Message</label>
 										<textarea name="message" id="message" rows="3"></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Send Message" data-i18n="form_submit" /></li>
 								</ul>
 							</form>
 						</section>
 						<section class="split contact">
 							<section class="alt">
-								<h3>Address</h3>
-								<p>Hamburg, Germany<br />
+								<h3 data-i18n="addr_heading">Address</h3>
+								<p><span data-i18n="hamburg">Hamburg, Germany</span><br />
 								</p>
 							</section>
 							<section>
-								<h3>Email</h3>
+								<h3 data-i18n="email_heading">Email</h3>
 								<p><a href="mailto:himadri.joy01@gmail.com">himadri.joy01@gmail.com</a></p>
 							</section>
 							<section>
-								<h3>Social</h3>
+								<h3 data-i18n="social_heading">Social</h3>
 								<ul class="icons alt">
 									<li><a href="https://www.linkedin.com/in/himadri-joy/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/HimJoy" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
@@ -173,6 +174,40 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				window.PAGE_I18N = {
+					en: {
+						hero_tagline1: "An Electrical and Electronics Engineer skilled in Business Intelligence Tools",
+						hero_tagline2: "MBA Candidate | Technical Analysis | Facility Automation",
+						hero_resume: "See my Resume",
+						hero_continue: "Continue",
+						p0_title1: "Product Performance",
+						p0_title2: "Power BI Report",
+						p0_desc: "This Power BI report provides a clear snapshot of AdventureWorks business performance by bringing revenue, profit, orders, and return rate into one view. It helps decision-makers quickly track monthly trends, compare category-level order volumes, and identify top-performing as well as high-return products. The dashboard highlights key monthly KPIs and product-type insights, making it easier to spot performance changes at a glance. With its clean visual structure and interactive elements, it supports fast, data-driven business decisions. For going deeper into Branch Evaluation, Product Details, Customer Details and futher, one just needs to go to other pages of this report.",
+						p1_title: "Inspection Volume Analysis Dashboard",
+						p1_desc: "This Power BI dashboard gives an executive overview of restaurant inspection performance, combining inspection volume, sanitation grades, and violation trends in one interactive report. It enables users to monitor current-month inspections against targets, analyze violations by region and type, and identify geographic patterns through zip code mapping.",
+						p2_title: "Business Data Science Project",
+						p2_desc: "This project showcases my work in data acquisition, data wrangling, visualization, and business-oriented analysis through a structured and interactive web format. Across the project, I applied tools such as Tidyverse, ggplot2, web scraping, and API-based data collection to solve practical analytics challenges. This project is based on multiple real-world datasets, including bike sales data, weather data from the OpenWeather API, bike product data scraped from the Radon Bikes website, patent datasets, and COVID-19 case data.",
+						p3_title: "RFID Project"
+					},
+					de: {
+						hero_tagline1: "Elektroingenieur mit Schwerpunkt Business-Intelligence-Tools",
+						hero_tagline2: "MBA-Kandidat | Technische Analyse | Gebäudeautomation",
+						hero_resume: "Lebenslauf ansehen",
+						hero_continue: "Weiter",
+						p0_title1: "Produktleistung",
+						p0_title2: "Power-BI-Report",
+						p0_desc: "Dieser Power-BI-Report zeigt die Geschäftsentwicklung von AdventureWorks auf einen Blick: Umsatz, Gewinn, Bestellungen und Retourenquote werden in einer Ansicht zusammengeführt. Er hilft Entscheidern, monatliche Trends schnell zu erkennen, Bestellvolumen nach Kategorie zu vergleichen und sowohl Top-Produkte als auch Produkte mit hoher Retourenquote zu identifizieren. Die weiteren Seiten des Reports bieten zusätzliche Auswertungen zu Niederlassungen, Produkten und Kunden.",
+						p1_title: "Dashboard zur Analyse des Inspektionsvolumens",
+						p1_desc: "Dieses Power-BI-Dashboard bietet einen Management-Überblick über die Inspektionsleistung von Restaurants und vereint Inspektionsvolumen, Hygienebewertungen und Verstoßtrends in einem interaktiven Report. Es ermöglicht, die Inspektionen des laufenden Monats mit den Zielwerten zu vergleichen, Verstöße nach Region und Art zu analysieren und geografische Muster über Postleitzahlen sichtbar zu machen.",
+						p2_title: "Business-Data-Science-Projekt",
+						p2_desc: "Dieses Projekt zeigt meine Arbeit in den Bereichen Datenbeschaffung, Datenaufbereitung, Visualisierung und businessorientierte Analyse in einem strukturierten, interaktiven Webformat. Ich setzte Werkzeuge wie Tidyverse, ggplot2, Web Scraping und API-basierte Datenerfassung ein, um praxisnahe Analyseaufgaben zu lösen. Grundlage sind mehrere reale Datensätze, darunter Fahrradverkaufsdaten, Wetterdaten der OpenWeather-API, von der Radon-Bikes-Website gescrapte Produktdaten, Patentdaten und COVID-19-Fallzahlen.",
+						p3_title: "RFID-Projekt"
+					}
+				};
+			</script>
+			<script src="assets/js/i18n.js"></script>
 
 	</body>
 </html>

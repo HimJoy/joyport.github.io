@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>himadri joy bepari electrical engineering projects</title>
 		<meta charset="utf-8" />
@@ -31,10 +31,14 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="index.html">Featured Projects</a></li>
-							<li><a href="generic.html">Certifications</a></li>
-							<li class="active"><a href="electrical.html">Electrical Thesis/Projects</a></li>
-							<li><a href="mba.html">MBA Presentation/Projects</a></li>
+							<li><a href="index.html" data-i18n="nav_projects">Featured Projects</a></li>
+							<li><a href="generic.html" data-i18n="nav_certs">Certifications</a></li>
+							<li class="active"><a href="electrical.html" data-i18n="nav_electrical">Electrical Thesis/Projects</a></li>
+							<li><a href="mba.html" data-i18n="nav_mba">MBA Presentation/Projects</a></li>
+						</ul>
+						<ul class="lang-toggle">
+							<li><a href="#" data-lang-btn="en" onclick="setLang('en');return false;">EN</a></li>
+							<li><a href="#" data-lang-btn="de" onclick="setLang('de');return false;">DE</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/himadri-joy/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
@@ -46,64 +50,56 @@
 					<div id="main">
 
 						<header class="major">
-							<h1>Electrical Engineering Thesis &amp; Projects</h1>
-							<p>Research and engineering projects from my electrical and electronics engineering studies.</p>
+							<h1 data-i18n="page_h1">Electrical Engineering Thesis &amp; Projects</h1>
+							<p data-i18n="page_tagline">Research and engineering projects from my electrical and electronics engineering studies.</p>
 						</header>
 
 						<!-- Posts -->
 							<section class="posts">
 								<article>
 									<header>
-										<h2><a href="https://github.com/HimJoy/Thesis/tree/main/LiFi%20Thesis">Simultaneous Lightwave Information and Power Transfer (SLIPT)<br />
+										<h2><a href="https://github.com/HimJoy/Thesis/tree/main/LiFi%20Thesis"><span data-i18n="e1_title">Simultaneous Lightwave Information and Power Transfer (SLIPT)</span><br />
 										</a></h2>
 									</header>
 									<a href="https://github.com/HimJoy/Thesis/tree/main/LiFi%20Thesis" class="image fit"><img src="images/lifi_thesis_2.jpg" alt="Li-Fi SLIPT master's thesis receiver prototype" /></a>
-									<p>My Master's thesis explored how to use light for both wireless data communication and energy generation, a concept known as Light Fidelity (Li-Fi) combined with Simultaneous Lightwave Information and Power Transfer (SLIPT).
-										To build the light transmitter, I programmed a Raspberry Pi Pico using MicroPython within the Thonny development environment.
-										I also utilized LTSpice software to design and simulate complex receiver circuits before building a physical prototype.
-										For the receiver's brain, I programmed an STM32-Nucleo microcontroller to efficiently decode the incoming data signals while running in a low-power state.
-										Ultimately, my real-world prototype proved the concept works by successfully decoding data at distances up to 15 cm while simultaneously harvesting microwatts of free energy from standard LEDs.</p>
+									<p data-i18n="e1_desc">My Master's thesis explored how to use light for both wireless data communication and energy generation, a concept known as Light Fidelity (Li-Fi) combined with Simultaneous Lightwave Information and Power Transfer (SLIPT). To build the light transmitter, I programmed a Raspberry Pi Pico using MicroPython within the Thonny development environment. I also utilized LTSpice software to design and simulate complex receiver circuits before building a physical prototype. For the receiver's brain, I programmed an STM32-Nucleo microcontroller to efficiently decode the incoming data signals while running in a low-power state. Ultimately, my real-world prototype proved the concept works by successfully decoding data at distances up to 15 cm while simultaneously harvesting microwatts of free energy from standard LEDs.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/HimJoy/Thesis/tree/main/LiFi%20Thesis" class="button">View Project</a></li>
+										<li><a href="https://github.com/HimJoy/Thesis/tree/main/LiFi%20Thesis" class="button" data-i18n="btn_view">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<h2><a href="https://github.com/HimJoy/TIA_project">Designing Transimpedance Amplifier for a Li-Fi receiver<br />
+										<h2><a href="https://github.com/HimJoy/TIA_project"><span data-i18n="e2_title">Designing Transimpedance Amplifier for a Li-Fi receiver</span><br />
 										</a></h2>
 									</header>
 									<a href="https://github.com/HimJoy/TIA_project" class="image fit"><img src="images/lifi_tia.jpg" alt="Transimpedance amplifier design for Li-Fi receiver" /></a>
-									<p>My Master's project involved designing and evaluating a transimpedance amplifier (TIA) to quickly convert incoming light signals into electrical data.
- 									 To ensure the amplifier was fast and stable, I verified my mathematical designs through software simulations and physical hardware experiments. I used LTSpice and MATLAB to simulate the circuit and analyze its performance.
-									 For the real-world testing, I utilized an Analog Discovery 3 device with Waveforms software to measure signals, alongside a Raspberry Pi Pico programmed via Thonny to generate the light pulses.</p>
+									<p data-i18n="e2_desc">My Master's project involved designing and evaluating a transimpedance amplifier (TIA) to quickly convert incoming light signals into electrical data. To ensure the amplifier was fast and stable, I verified my mathematical designs through software simulations and physical hardware experiments. I used LTSpice and MATLAB to simulate the circuit and analyze its performance. For the real-world testing, I utilized an Analog Discovery 3 device with Waveforms software to measure signals, alongside a Raspberry Pi Pico programmed via Thonny to generate the light pulses.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/HimJoy/TIA_project" class="button">View Project</a></li>
+										<li><a href="https://github.com/HimJoy/TIA_project" class="button" data-i18n="btn_view">View Project</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										
-										<h2><a href="https://github.com/HimJoy/RFID_new/tree/main">RFID for WIP & Warehouse Management<br />
+										<h2><a href="https://github.com/HimJoy/RFID_new/tree/main"><span data-i18n="e3_title">RFID for WIP &amp; Warehouse Management</span><br />
 										</a></h2>
 									</header>
 									<a href="https://github.com/HimJoy/RFID_new/tree/main" class="image fit"><img src="images/rfid.jpg" alt="Tableau dashboard for RFID-based warehouse and inventory management" /></a>
-									<p>This project explored how RFID can improve warehouse and inventory management through real-time tracking, fewer manual errors, and better process visibility. I supported the work by creating a Tableau dashboard to analyze missing articles and highlight inventory-related losses. The study also included cost, risk, and ROI analysis, showing that RFID implementation could deliver clear operational and financial benefits.</p>
+									<p data-i18n="rfid_desc">This project explored how RFID can improve warehouse and inventory management through real-time tracking, fewer manual errors, and better process visibility. I supported the work by creating a Tableau dashboard to analyze missing articles and highlight inventory-related losses. The study also included cost, risk, and ROI analysis, showing that RFID implementation could deliver clear operational and financial benefits.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/HimJoy/RFID_new/tree/main" class="button">Full Story</a></li>
+										<li><a href="https://github.com/HimJoy/RFID_new/tree/main" class="button" data-i18n="btn_full">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
 										
-										<h2><a href="https://github.com/HimJoy/Bachelor_Thesis_MPL_inverter">Finite State Model Predictive Control of Grid-connected Inverter<br />
+										<h2><a href="https://github.com/HimJoy/Bachelor_Thesis_MPL_inverter"><span data-i18n="e4_title">Finite State Model Predictive Control of Grid-connected Inverter</span><br />
 										</a></h2>
 									</header>
 									<a href="https://github.com/HimJoy/Bachelor_Thesis_MPL_inverter" class="image fit"><img src="images/mpc.jpg" alt="Finite state model predictive control simulation of grid-connected inverter" /></a>
-									<p>In my Bachelor's thesis, I developed a control strategy to smoothly synchronize local renewable energy sources, like solar or wind power, with the main electrical grid using Finite State Model Predictive Control (FS-MPC).
-									I designed a three-phase grid-tied inverter that utilizes a Phase Locked Loop (PLL) to precisely match the grid's voltage phase and frequency.
-									To build the system models, program the predictive algorithms, and simulate the inverter's performance, I utilized MATLAB and Simulink.</p>
+									<p data-i18n="e4_desc">In my Bachelor's thesis, I developed a control strategy to smoothly synchronize local renewable energy sources, like solar or wind power, with the main electrical grid using Finite State Model Predictive Control (FS-MPC). I designed a three-phase grid-tied inverter that utilizes a Phase Locked Loop (PLL) to precisely match the grid's voltage phase and frequency. To build the system models, program the predictive algorithms, and simulate the inverter's performance, I utilized MATLAB and Simulink.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/HimJoy/Bachelor_Thesis_MPL_inverter" class="button">Full Story</a></li>
+										<li><a href="https://github.com/HimJoy/Bachelor_Thesis_MPL_inverter" class="button" data-i18n="btn_full">Full Story</a></li>
 									</ul>
 								</article>
 							</section>
@@ -116,35 +112,35 @@
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
-										<label for="name">Name</label>
+										<label for="name" data-i18n="form_name">Name</label>
 										<input type="text" name="name" id="name" />
 									</div>
 									<div class="field">
-										<label for="email">Email</label>
+										<label for="email" data-i18n="form_email">Email</label>
 										<input type="text" name="email" id="email" />
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
+										<label for="message" data-i18n="form_message">Message</label>
 										<textarea name="message" id="message" rows="3"></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Send Message" data-i18n="form_submit" /></li>
 								</ul>
 							</form>
 						</section>
 						<section class="split contact">
 							<section class="alt">
-								<h3>Address</h3>
-								<p>Hamburg, Germany<br />
+								<h3 data-i18n="addr_heading">Address</h3>
+								<p><span data-i18n="hamburg">Hamburg, Germany</span><br />
 								</p>
 							</section>
 							<section>
-								<h3>Email</h3>
+								<h3 data-i18n="email_heading">Email</h3>
 								<p><a href="mailto:himadri.joy01@gmail.com">himadri.joy01@gmail.com</a></p>
 							</section>
 							<section>
-								<h3>Social</h3>
+								<h3 data-i18n="social_heading">Social</h3>
 								<ul class="icons alt">
 									<li><a href="https://www.linkedin.com/in/himadri-joy/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/HimJoy" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
@@ -168,6 +164,34 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				window.PAGE_I18N = {
+					en: {
+						page_h1: "Electrical Engineering Thesis & Projects",
+						page_tagline: "Research and engineering projects from my electrical and electronics engineering studies.",
+						e1_title: "Simultaneous Lightwave Information and Power Transfer (SLIPT)",
+						e1_desc: "My Master's thesis explored how to use light for both wireless data communication and energy generation, a concept known as Light Fidelity (Li-Fi) combined with Simultaneous Lightwave Information and Power Transfer (SLIPT). To build the light transmitter, I programmed a Raspberry Pi Pico using MicroPython within the Thonny development environment. I also utilized LTSpice software to design and simulate complex receiver circuits before building a physical prototype. For the receiver's brain, I programmed an STM32-Nucleo microcontroller to efficiently decode the incoming data signals while running in a low-power state. Ultimately, my real-world prototype proved the concept works by successfully decoding data at distances up to 15 cm while simultaneously harvesting microwatts of free energy from standard LEDs.",
+						e2_title: "Designing Transimpedance Amplifier for a Li-Fi receiver",
+						e2_desc: "My Master's project involved designing and evaluating a transimpedance amplifier (TIA) to quickly convert incoming light signals into electrical data. To ensure the amplifier was fast and stable, I verified my mathematical designs through software simulations and physical hardware experiments. I used LTSpice and MATLAB to simulate the circuit and analyze its performance. For the real-world testing, I utilized an Analog Discovery 3 device with Waveforms software to measure signals, alongside a Raspberry Pi Pico programmed via Thonny to generate the light pulses.",
+						e3_title: "RFID for WIP & Warehouse Management",
+						e4_title: "Finite State Model Predictive Control of Grid-connected Inverter",
+						e4_desc: "In my Bachelor's thesis, I developed a control strategy to smoothly synchronize local renewable energy sources, like solar or wind power, with the main electrical grid using Finite State Model Predictive Control (FS-MPC). I designed a three-phase grid-tied inverter that utilizes a Phase Locked Loop (PLL) to precisely match the grid's voltage phase and frequency. To build the system models, program the predictive algorithms, and simulate the inverter's performance, I utilized MATLAB and Simulink."
+					},
+					de: {
+						page_h1: "Elektrotechnik – Abschlussarbeiten & Projekte",
+						page_tagline: "Forschungs- und Ingenieurprojekte aus meinem Studium der Elektro- und Informationstechnik.",
+						e1_title: "Simultane Lichtwellen-Informations- und Energieübertragung (SLIPT)",
+						e1_desc: "Meine Masterarbeit untersuchte, wie sich Licht sowohl für die drahtlose Datenkommunikation als auch für die Energieerzeugung nutzen lässt – ein Konzept, das als Light Fidelity (Li-Fi) in Kombination mit Simultaneous Lightwave Information and Power Transfer (SLIPT) bekannt ist. Für den Lichtsender programmierte ich einen Raspberry Pi Pico mit MicroPython in der Entwicklungsumgebung Thonny. Zudem nutzte ich LTSpice, um komplexe Empfängerschaltungen zu entwerfen und zu simulieren, bevor ich einen physischen Prototyp baute. Für die Steuerung des Empfängers programmierte ich einen STM32-Nucleo-Mikrocontroller, der die eingehenden Datensignale auch im Low-Power-Modus effizient dekodiert. Der reale Prototyp bewies schließlich, dass das Konzept funktioniert: Er dekodierte Daten zuverlässig über Distanzen von bis zu 15 cm und gewann gleichzeitig Mikrowatt an Energie aus haushaltsüblichen LEDs.",
+						e2_title: "Entwurf eines Transimpedanzverstärkers für einen Li-Fi-Empfänger",
+						e2_desc: "In meinem Masterprojekt entwarf und bewertete ich einen Transimpedanzverstärker (TIA), der eingehende Lichtsignale schnell in elektrische Daten umwandelt. Um Geschwindigkeit und Stabilität des Verstärkers sicherzustellen, überprüfte ich meine mathematischen Entwürfe durch Softwaresimulationen und praktische Hardwareversuche. Für die Simulation der Schaltung und die Leistungsanalyse nutzte ich LTSpice und MATLAB. Für die Tests unter realen Bedingungen setzte ich ein Analog Discovery 3 mit der Software Waveforms zur Signalmessung ein, zusammen mit einem über Thonny programmierten Raspberry Pi Pico zur Erzeugung der Lichtpulse.",
+						e3_title: "RFID für Bestands- und Lagerverwaltung",
+						e4_title: "Finite-State Model Predictive Control eines netzgekoppelten Wechselrichters",
+						e4_desc: "In meiner Bachelorarbeit entwickelte ich eine Regelungsstrategie, um lokale erneuerbare Energiequellen wie Solar- oder Windkraft mithilfe von Finite State Model Predictive Control (FS-MPC) reibungslos mit dem öffentlichen Stromnetz zu synchronisieren. Ich entwarf einen dreiphasigen netzgekoppelten Wechselrichter, der über eine Phasenregelschleife (PLL) die Netzspannung präzise in Phase und Frequenz nachführt. Zum Aufbau der Systemmodelle, zur Programmierung der Vorhersagealgorithmen und zur Simulation der Wechselrichterleistung nutzte ich MATLAB und Simulink."
+					}
+				};
+			</script>
+			<script src="assets/js/i18n.js"></script>
 
 	</body>
 </html>
