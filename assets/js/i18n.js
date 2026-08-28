@@ -8,10 +8,10 @@
 
 	var COMMON_I18N = {
 		en: {
-			nav_projects: "Featured Projects",
+			nav_projects: "BI Projects",
 			nav_certs: "Certifications",
-			nav_electrical: "Electrical Thesis/Projects",
-			nav_mba: "MBA Presentation/Projects",
+			nav_electrical: "Electrical Projects",
+			nav_mba: "MBA Projects",
 			form_name: "Name",
 			form_email: "Email",
 			form_message: "Message",
@@ -26,7 +26,7 @@
 			rfid_desc: "This project explored how RFID can improve warehouse and inventory management through real-time tracking, fewer manual errors, and better process visibility. I supported the work by creating a Tableau dashboard to analyze missing articles and highlight inventory-related losses. The study also included cost, risk, and ROI analysis, showing that RFID implementation could deliver clear operational and financial benefits."
 		},
 		de: {
-			nav_projects: "Ausgewählte Projekte",
+			nav_projects: "BI-Projekte",
 			nav_certs: "Zertifikate",
 			nav_electrical: "Elektrotechnik/Projekte",
 			nav_mba: "MBA-Projekte",
